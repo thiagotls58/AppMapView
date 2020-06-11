@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itStart"
+        android:title="Start" />
+    <item
+        android:id="@+id/itPause"
+        android:title="Pause" />
+    <item
+        android:id="@+id/itStop"
+        android:title="Stop" />
+</menu>

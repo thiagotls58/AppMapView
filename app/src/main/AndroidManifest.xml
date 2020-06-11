@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.thiagoluz.appmapview">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +14,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCeI_TLuNZ3vnkTblp7JwBfWFvr4RrJJkE"/>
+            android:value="AIzaSyDA7SsIUn14rmymZsmgwjrp4sXeTr0ocyQ"/>
 
         <activity android:name=".MainActivity">
             <intent-filter>
